@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:text="Toast"
+        android:background="#008bee"
+        android:textColor="#000000"
+        android:id="@+id/toast"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60"
+        android:text="0"
+        android:textSize="175sp"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        android:id="@+id/textcount"/>
+
+    <Button
+        android:id="@+id/count"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="#009fee"
+        android:onClick="countinc"
+        android:text="Count"
+        android:textColor="#000000" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:text="Decrement"
+        android:background="#0001def2"
+        android:textColor="#000000"
+        android:onClick="countdec"
+        android:id="@+id/decrement"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:text="Reset"
+        android:background="#b7f00004"
+        android:textColor="#000000"
+        android:onClick="reset"
+        android:id="@+id/reset"/>
+
+
+</LinearLayout>
