@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+           
     public void countinc(View view) {
         i++;
         t1.setText(Integer.toString(i));
